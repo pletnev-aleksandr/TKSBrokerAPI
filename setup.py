@@ -100,17 +100,4 @@ setup(
         "python-dateutil >= 2.8.1",  # Apache-2.0 license
         "PriceGenerator >= 1.2.74",  # Apache-2.0 license
     ],
-
-    packages=[
-        "tksbrokerapi",
-    ],
-
-    package_data={
-        "tksbrokerapi": [
-        ],
-    },
-
-    include_package_data=True,
-
-    zip_safe=True,
 )
