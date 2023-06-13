@@ -37,7 +37,7 @@ import os
 from argparse import ArgumentParser
 from importlib.metadata import version
 
-from dateutil.tz import tzlocal
+
 from time import sleep
 
 import re
@@ -54,7 +54,7 @@ from mako.template import Template  # Mako Templates for Python (https://www.mak
 from tksbrokerapi.Templates import *  # A lot of constants from enums sections: https://tinkoff.github.io/investAPI/swagger-ui/
 from tksbrokerapi.TKSEnums import *  # A lot of constants from enums sections: https://tinkoff.github.io/investAPI/swagger-ui/
 from tksbrokerapi.TradeRoutines import *  # This library contains some methods used by trade scenarios implemented with TKSBrokerAPI module
-
+from dateutil.tz import tzlocal
 from pricegenerator.PriceGenerator import PriceGenerator, uLogger  # This module has a lot of instruments to work with candles data (https://github.com/Tim55667757/PriceGenerator)
 from pricegenerator.UniLogger import DisableLogger as PGDisLog  # Method for disable log from PriceGenerator
 
