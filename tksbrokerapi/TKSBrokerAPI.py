@@ -30,6 +30,7 @@ the necessary information from the broker. It is easy enough to integrate into v
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+import pandas as pd
 
 from tksbrokerapi.Templates import *  # A lot of constants from enums sections: https://tinkoff.github.io/investAPI/swagger-ui/
 from tksbrokerapi.TKSEnums import *  # A lot of constants from enums sections: https://tinkoff.github.io/investAPI/swagger-ui/
@@ -50,7 +51,7 @@ from typing import Union
 
 from multiprocessing import cpu_count
 from multiprocessing.pool import ThreadPool
-import pandas as pd
+
 
 from mako.template import Template  # Mako Templates for Python (https://www.makotemplates.org/). Mako is a template library provides simple syntax and maximum performance.
 from dateutil.tz import tzlocal
