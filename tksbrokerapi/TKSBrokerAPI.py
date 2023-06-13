@@ -1,35 +1,3 @@
-# -*- coding: utf-8 -*-
-# Author: Timur Gilmullin
-
-"""
-**TKSBrokerAPI** is the trading platform for automation and simplifying the implementation of trading scenarios,
-as well as working with Tinkoff Invest API server via the REST protocol. The TKSBrokerAPI platform may be used in two ways:
-from the console, it has a rich keys and commands, or you can use it as Python module with `python import`.
-
-TKSBrokerAPI allows you to automate routine trading operations and implement your trading scenarios, or just receive
-the necessary information from the broker. It is easy enough to integrate into various CI/CD automation systems.
-
-- **Open account for trading:** http://tinkoff.ru/sl/AaX1Et1omnH
-- **TKSBrokerAPI module documentation:** https://tim55667757.github.io/TKSBrokerAPI/docs/tksbrokerapi/TKSBrokerAPI.html
-- **See CLI examples:** https://github.com/Tim55667757/TKSBrokerAPI/blob/master/README_EN.md#Usage-examples
-- **Used constants are in the TKSEnums module:** https://tim55667757.github.io/TKSBrokerAPI/docs/tksbrokerapi/TKSEnums.html
-- **About Tinkoff Invest API:** https://tinkoff.github.io/investAPI/
-- **Tinkoff Invest API documentation:** https://tinkoff.github.io/investAPI/swagger-ui/
-"""
-
-# Copyright (c) 2022 Gilmillin Timur Mansurovich
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
 import pandas as pd
 
 from tksbrokerapi.Templates import *  # A lot of constants from enums sections: https://tinkoff.github.io/investAPI/swagger-ui/

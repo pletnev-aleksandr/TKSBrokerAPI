@@ -49,7 +49,6 @@ setup(
 
     download_url="https://github.com/Tim55667757/TKSBrokerAPI.git",
 
-    entry_points={"console_scripts": ["tksbrokerapi = tksbrokerapi.TKSBrokerAPI:Main"]},
 
     classifiers=[
         "Development Status :: {}".format(devStatus),
